@@ -1,0 +1,15 @@
+[Desktop Entry]
+Categories = Development;
+Comment = Compare the folders or the files
+Comment[en_GB] = Compare the folders or the files
+Exec = BCompare %F
+GenericName = Comparaison
+GenericName[en_GB] = Comparaison
+Icon = bcompare
+Name = BCompare
+Name[en_GB] = BCompare
+StartupNotify = true
+StartupWMClass = BCompare
+Terminal = false
+Type = Application
+Version = 1.0
