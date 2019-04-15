@@ -12,10 +12,10 @@ Comment[pt] = Comparar os diretórios ou os ficheiros
 Comment[pt_BR] = Comparar as pastas ou os arquivos
 Comment[pt_PT] = Comparar os directórios ou os ficheiros
 Exec = env WINEPREFIX="$HOME/Applications/Windows" /usr/bin/wine C:\\\\windows\\\\command\\\\start.exe /Unix $HOME/Applications/Windows/drive_c/Program\\ Files/Beyond\\ Compare\\ 4/BCompare.exe
-GenericName = Comparison 2
+GenericName = Comparison
 GenericName[ca] = Comparació
 GenericName[de] = Vergleich
-GenericName[en_GB] = Comparison 2
+GenericName[en_GB] = Comparison
 GenericName[es] = Comparación
 GenericName[fr] = Comparazione
 GenericName[nl] = Vergelijking
