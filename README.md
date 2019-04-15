@@ -60,7 +60,16 @@ Stored in `~/.local/share/applications/`, desktop files of Windows apps – Adob
 
    ```
    wget -O dotnet47.exe 'http://download.microsoft.com/download/D/D/3/DD35CC25-6E9C-484B-A746-C5BE0C923290/NDP47-KB3186497-x86-x64-AllOS-ENU.exe'
-   WINEPREFIX=~/Applications/Windowsr wine ./dotnet47.exe /q
+   WINEPREFIX=~/Applications/Windows wine ./dotnet47.exe /q
+   ```
+
+   If you still receive the same error of missed Gecko package, repeat at the item 1 end.
+</li>
+
+<li>Finally install the library `dxvk`, because certain applications require DirectX and Vulkan drivers compatible wtih certain video-cards. Also do not forget of installing `mesa-vulkan-drivers` (if you use Ubuntu)
+
+   ```
+   WINEPREFIX=~/Applications/Windows winetricks dxvk
    ```
 
    If you still receive the same error of missed Gecko package, repeat at the item 1 end.
