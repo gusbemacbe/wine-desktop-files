@@ -56,4 +56,18 @@ Stored in `~/.local/share/applications/`, desktop files of Windows apps – Adob
   </ol>
 </li>
 
+<li>Download and install another important package – .NET Framework 4.7.2:
+
+   ```
+   wget -O dotnet47.exe 'http://download.microsoft.com/download/D/D/3/DD35CC25-6E9C-484B-A746-C5BE0C923290/NDP47-KB3186497-x86-x64-AllOS-ENU.exe'
+   WINEPREFIX=~/Applications/Windowsr wine ./dotnet47.exe /q
+   ```
+
+   If you still receive the same error of missed Gecko package, repeat at the item 1 end.
+</li>
+
 </ol>
+
+## Install your favourite Windows app
+
+Please choose one of subfolders at this repository. At the subfolder, you will read the README about how to install an application
