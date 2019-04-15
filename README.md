@@ -80,3 +80,11 @@ Stored in `~/.local/share/applications/`, desktop files of Windows apps – Adob
 ## Install your favourite Windows app
 
 Please choose one of subfolders at this repository. At the subfolder, you will read the README about how to install an application
+
+## References
+
+* [An attempt to run Affinity Designer on Linux via Wine](https://forum.affinity.serif.com/index.php?/topic/65310-an-attempt-to-run-affinity-designer-on-linux-via-wine/)
+
+## Licence
+
+© 2019 <a href="https://opensource.org/licenses/MIT"><img align="top" src="https://img.shields.io/badge/License-MIT-b71c1c.svg" alt="MIT" ></a> Wine Desktop Files by Gustavo Costa

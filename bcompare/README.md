@@ -29,3 +29,7 @@ As you are a KDE user, do you prefer the Windows-based app with enabled GTK 4 th
 
   <li>Run the command <code>update-desktop-database</code> to refresh the list of desktop files.</li>
 </ol>
+
+## Observation
+
+Wine generates automatically new desktop files of Wine apps in the folder `~/.local/share/applications/wine/Programs/`. As you have already created manually this desktop file, you can remove the folder `wine`, unless you want to modify the icon name manually. 
