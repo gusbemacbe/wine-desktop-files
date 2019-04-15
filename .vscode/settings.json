@@ -1,0 +1,22 @@
+{
+  "editor.fontSize": 16,
+  "markdown.styles": 
+  [
+    "/home/gusbemacbe/GitHub/wine-desktop-files/markdown-preview.css"
+  ],
+  "spellright.language": 
+  [
+    "en_GB",
+    "it_IT"
+    "pt_PT"
+  ],
+  "spellright.documentTypes": 
+  [
+    "css",
+    "html",
+    "markdown",
+    "latex",
+    "php",
+    "python"
+  ]
+}
